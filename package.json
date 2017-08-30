@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-playbulb-accessory",
+  "description": "Plugin to use the mipow playbulbs bluetooth low energy as accessories in homebridge with siri / homekit",
+  "author": "Mirko Crippa",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "bluetooth",
+    "bluetooth low energy",
+    "mipow",
+    "playbulb",
+    "candle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mecrip/homebridge-playbulb-accessory"
+  },
+  "bugs": {
+    "url": "https://github.com/mecrip/homebridge-playbulb-accessory/issues"
+  },
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.6"
+  },
+  "dependencies": {
+    "noble": ">=1.7.0"
+  }
+}
